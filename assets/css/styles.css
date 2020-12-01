@@ -1,5 +1,33 @@
 
 /* css */
+.color {
+  background-color: grey;
+}
 
-
-<img src="assets/img/puppy.png" alt="Puppy" style="vertical-align:bottom">
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.left{
+  display: block;
+  margin-left: auto;
+}
+.right{
+  display: block;
+  margin-right:auto;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.prompt1 h3 {
+ display: inline;
+}
+.highlight {
+  background-color:pink;
+}
+.font {
+    font: 2rem 'Cottonwood', sans-serif;
+}
