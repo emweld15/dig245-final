@@ -12,10 +12,12 @@
 .left{
   display: block;
   margin-left: auto;
+  padding: 5px;
 }
 .right{
   display: block;
   margin-right:auto;
+  padding:5px;
 }
 .column {
   float: left;
@@ -28,6 +30,40 @@
 .highlight {
   background-color:pink;
 }
+.highlight2 {
+  background-color:#BEDFFF;
+}
+.highlight3 {
+  background-color:#DF26C3;
+}
 .font {
     font: 2rem 'Cottonwood', sans-serif;
 }
+.two-col {
+    overflow: hidden;/* Makes this div contain its floats */
+}
+
+.two-col .col1,
+.two-col .col2 {
+    width: 49%;
+}
+
+.two-col .col1 {
+    float: left;
+}
+
+.two-col .col2 {
+    float: right;
+}
+
+.two-col label {
+    display: block;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;}
+.column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;}
