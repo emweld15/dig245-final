@@ -3,7 +3,18 @@
 .color {
   background-color: grey;
 }
-
+.font1{
+  font-family: Papyrus;
+}
+.font2{
+  font-family: Garamond;
+}
+.tab{
+  margin-left:40px;
+}
+.tab2{
+  margin-left:65px;
+}
 .center {
   display: block;
   margin-left: auto;
@@ -22,6 +33,11 @@
 .bush{
   position: absolute;
   right: 20px;
+}
+.middle{
+  position: absolute;
+  right:50px;
+  left:800px;
 }
 .column {
   float: left;
